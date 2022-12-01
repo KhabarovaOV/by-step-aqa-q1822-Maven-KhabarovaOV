@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: by.step.aqa.q1822.Maven.KhabarovaOV.TestClass
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec <<< FAILURE!
+by.step.aqa.q1822.Maven.KhabarovaOV.TestClass.testMethod()  Time elapsed: 0.043 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <http:\\yandex.ru> but was: <http:\\yandex.by>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
+	at by.step.aqa.q1822.Maven.KhabarovaOV.TestClass.testMethod(TestClass.java:13)
+
